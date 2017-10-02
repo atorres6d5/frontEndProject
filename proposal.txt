@@ -1,0 +1,26 @@
+1st proposal----------------------------
+
+Make a site where the user can save the places they have skied or snowboarded
+they can make a profile, save their name, age, if the snowboard, ski or both. during the day on the summit they can make updates to their profile of where they have been. which runs are having good conditions, make comments of where there are some hidden obstacles.
+
+users of the website would mainly be people who ski and snowboard. both locals and tourist trying to keep track of where they have been that day, week, year, or all time. possibilities for this also includes an advertise user base to sell equipment to riders.
+
+this would use forms to create a profile and login page;
+this would use either drop down menus to select runs that they have been on.
+
+
+2nd proposal----------------------------
+
+make a page for measurements to be recorded, and parts to be counted, good and bad
+
+
+At the machine shop people need to record data from their parts and write them down. my page will be used to log the data from the parts. use local data to save the employees info and the part info in witch they are working on. at the end of the day it will make a report of all their data that they can attach to the work order would be using forms to log the numbers
+
+
+3rd proposal------------------------------
+
+Make a scrap tag maker
+
+when parts are not to spec, we have to write out a tag that has the work orders info and what went wrong in our method to produce a bad part. we document this on a red tag that get attached to a part.
+
+this page will submit the bad part information to a document to print out and attach to our part
