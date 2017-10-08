@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Basic Info</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="basic.js">
+
+    </script>
+
+
+  </head>
+  <body>
+    <h1 class="container"><div class="row"><div class="col title">JEMCO SPC DATA</div><img class="col-6 flex-row-reverse" src="http://www.jemcoinc.com/uploads/1/2/8/0/12800291/3978999.png?301"></div></h1>
+    <form id="form" action="spc_sheet.html">
+    <table class="container">
+      <tr>
+        <th><h1>Enter Part Information</h1></th>
+      </tr>
+      <tr>
+        <td>Work Order #:</td><td id='Work_Order'><input type="text" name="workOrder" value="0000"></td>
+      </tr>
+      <tr>
+        <td>Part#</td><td><input pattern='[0-9/-]*'type='text' name="partNumber" value="0000"></td>
+      </tr>
+      <tr>
+        <td>Qty</td><td><input type="number" name="qty" value="000"></td>
+      </tr>
+      <tr>
+        <td>Employee#</td><td><input type="number" name="Employee" value="000"></td>
+      </tr>
+      <tr>
+        <td>Dimensions</td>
+        <td><input type="text" name="dim1" value="000">
+           <select class="tolerance" name="spec">
+             <option value="+-.001">+-.001</option>
+             <option value="+-.005">+-.005</option>
+             <option value="+-.010">+-.010</option>
+             <option value="+-.030">+-.030</option>
+           </select>
+         </td>
+        <td><input type="text" name="dim2" value="000">
+          <select class="tolerance" name="spec">
+            <option value="+-.001">+-.001</option>
+            <option value="+-.005">+-.005</option>
+            <option value="+-.010">+-.010</option>
+            <option value="+-.030">+-.030</option>
+          </select>
+        </td>
+        <td><input type="text" name="dim3" value="000">
+          <select class="tolerance" name="spec">
+            <option value="+-.001">+-.001</option>
+            <option value="+-.005">+-.005</option>
+            <option value="+-.010">+-.010</option>
+            <option value="+-.030">+-.030</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="spc_sheet.html"><input type="submit" id="allData">
+        </a></td>
+      </tr>
+
+    </table>
+  </form>
+  </body>
+</html>

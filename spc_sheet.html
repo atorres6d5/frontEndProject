@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <title>SPC Sheet and Part Counter</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="main.js">
+    </script>
+  </head>
+  <body>
+
+    <h1 class="col-6">JEMCO SPC DATA SHEET<img class="col-6 flex-row-reverse" src="http://www.jemcoinc.com/uploads/1/2/8/0/12800291/3978999.png?301">
+    </h1>
+
+
+    <header class="container">
+      <h4 class="row">
+        <div class="col-3 titleInfo">Work Order#: <span id="workOrder">####</span></div>
+      </h4>
+      <h5 class="row">
+        <div class="col-3 titleInfo">Part number: <span id="part">###-###</span></div>
+
+        <div class="col-3 titleInfo">Work Order Quantity: <span id="quantity">#</span></div>
+
+        <div class="col-3 titleInfo">Parts Made: <span id="count">#</span> Parts</div>
+
+        <div class="col-3 titleInfo employee">Employee #: <span id="worker">###</span></div>
+      </h5>
+    </header>
+
+    <table class="container" id='maintable'>
+      <tr class="row d-flex justify-content-center">
+        <th class="col-1">Part Count</th>
+        <th class="col-1">Time Unloaded</th>
+        <th class="col-1">Visual Check</th>
+        <th class="col-2">
+          <div class="row">
+          Dim1
+          </div>
+          <div class="row">
+            Dim1_spec
+          </div>
+        </th>
+        <th class="col-2">
+          <div class="row">
+            Dim2
+          </div>
+          <div class="row">
+            Dim2_spec
+          </div>
+        </th>
+        <th class="col-2">
+          <div class="row">
+            Dim3
+          </div>
+          <div class="row">
+            Dim3_spec
+          </div>
+        </th>
+      </tr>
+    </table>
+
+    <form class="row d-flex justify-content-center" id="nextRow">
+        <input class="col-1" type="number" name="count" value="1">
+        <input class="col-1 time" type="time" name="userTime" value="HH:mm">
+        <input class="col-1 checkbox" type="checkbox" name="Visual_Check" value="Checked">YES/NO
+        <input class="col-1" type="text" name="Dim1">
+        <input class="col-1" type="text" name="Dim2">
+        <input class="col-1" type="text" name="Dim3">
+        <input type="submit" name="submit">
+      </form>
+
+    </table>
+
+  </body>
+</html>

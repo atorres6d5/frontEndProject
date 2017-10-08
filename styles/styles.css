@@ -1,0 +1,55 @@
+.titleInfo{
+  border: solid black;
+  border-radius: 3px;
+}
+
+#nextRow{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 3rem;
+}
+
+#maintable{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+body{
+  background-color: #836852;
+
+}
+body h1{
+  margin-left: 3rem;
+}
+
+header{
+  margin-top: 3rem;
+  margin-top: 3rem;
+}
+
+table{
+  background-color: #b19e8d;
+  border-radius: 40px;
+  border-collapse: collapse;
+
+}
+
+.title{
+  margin-top: 2rem;
+}
+
+th{
+
+  background-color: #d2c7bb;
+}
+td{
+
+  border: solid gray;
+  height: 3rem;
+  font-size:1rem;
+  background-color: #bc8f6c
+}
+input{
+  width: 100px;
+}
